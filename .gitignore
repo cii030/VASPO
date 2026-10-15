@@ -1,0 +1,35 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+outputs/
+checkpoints/
+wandb/
+swanlog/
+.DS_Store
+
+# Local environments, build products, and source archives
+.venv/
+venv/
+build/
+dist/
+*.zip
+*.sha256
+
+# Training artifacts and local credentials
+/rollout/
+/logs/
+tensorboard/
+*.log
+*.pt
+*.pth
+*.safetensors
+*.parquet
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.orig
+*.bkp

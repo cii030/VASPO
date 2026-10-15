@@ -1,0 +1,14 @@
+# KPop: https://ringtech.notion.site/kpop
+_target_: verl.trainer.config.KPopConfig
+
+# Enable fixed training/rollout policy correction; requires rollout.calculate_log_probs=true.
+enable: false
+
+# Maximum allowed Bernoulli KL in each direction (natural logarithms).
+phi: 2.0
+
+# Clamp probabilities for KL; values below FP32 epsilon use FP32 epsilon.
+probability_epsilon: 1.0e-6
+
+# Clip the raw IS log-ratio to +/- this value before exp (finite and in (0, 80]).
+log_ratio_clip: 20.0

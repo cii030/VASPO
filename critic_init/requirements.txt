@@ -1,0 +1,13 @@
+# GPU pretraining dependencies; install in a compatible CUDA environment.
+# These source-derived requirements are not a historical environment lockfile.
+torch
+numpy<2.0.0
+transformers
+datasets
+accelerate
+deepspeed
+flash-attn
+# Optional value-head fallback; matches the repository's inherited TRL extra.
+trl<=0.9.6
+# Optional streaming reader for large JSON-array inputs.
+ijson

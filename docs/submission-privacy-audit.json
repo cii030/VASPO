@@ -1,0 +1,8 @@
+{
+  "scope": "submission source files and archive metadata",
+  "direct_identifier_findings": 0,
+  "user_paths_credentials_and_runtime_caches": "not present",
+  "preserved": "upstream copyright, attribution and public technical references",
+  "limits": "pattern-based checks; no absolute guarantee against research-content identity inference",
+  "tests_passed": 16
+}

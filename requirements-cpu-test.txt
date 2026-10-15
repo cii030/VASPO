@@ -1,0 +1,5 @@
+# Small CPU-only test environment; does not install the training stack.
+numpy<2.0.0
+torch
+pytest
+hydra-core
