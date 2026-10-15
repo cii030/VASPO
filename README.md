@@ -167,16 +167,6 @@ the full supplied training file without a sample cap or dynamic group filtering.
 The critic uses the inherited separately optimized clipped value loss with its
 built-in factor of 0.5; no new joint actor/value coefficient is introduced.
 
-## Privacy checks
-
-Run `python scripts/audit_submission.py` before sharing. Packaging also runs this
-check and rejects direct home-directory paths, email addresses, known credential
-formats, private keys, and experiment-account URLs. Archive metadata uses fixed
-timestamps, generic permissions, no comments, and no user/group ownership data.
-Upstream copyright/attribution and public technical references remain intact.
-Research-content inference and identifiers introduced by future edits still
-require review; never submit runtime caches, logs, or the surrounding paper repo.
-
 ## Acknowledgements
 
 We thank the developers and contributors of [verl](https://github.com/volcengine/verl)
